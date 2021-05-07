@@ -1,0 +1,141 @@
+body{
+    background-color: #424242;
+    margin: 0;
+    padding: 0;
+}
+
+.general{
+    width: 100%;
+    display: flex;
+    height: 800px;
+}
+
+.generaleft{
+    width: 15%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleleft{
+    font-family: 'Trebuchet MS';
+    
+}
+
+.bar{
+    height: 1px;
+    background-color: #000;
+    width: 85%;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+}
+
+.b{
+    width: 100%;
+}
+
+.b a{
+    padding: 10px;
+    color: #fff;
+    background-color:  #FFAA29;
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-right: 30%;
+    
+}
+
+.b a:hover{
+    background-color: #F57702;
+    transition: 0.3s;
+    padding-right: 60%
+   
+}
+
+.content{
+    width: 100%;
+}
+
+.head1{
+    height: 100px;
+    background: linear-gradient(#3EC2FA,#02A8EE);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    font-family: 'Trebuchet MS';
+    color: #fff;
+    margin: 10px;
+}
+
+.status{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.status > div{
+    border-radius: 50%;
+    background-color: #3ADF00;
+    height: 32px;
+    width: 32px;
+    margin: 5px;
+}
+
+.status > h2{
+    font-family: 'Trebuchet MS';
+    color: #fff;   
+}
+
+.tt{
+    font-family: 'Trebuchet MS';
+    color: #fff;   
+    margin: 20px;
+    font-size: 55px;
+}
+.tts{
+    font-family: 'Trebuchet MS';
+    color: #fff;   
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.und{
+    font-family: 'Trebuchet MS';
+    color: #fff;   
+    margin: 20px;
+    font-size: 25px;
+}
+
+.und a{
+    color: blue;
+}
+
+.launcher{
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    color: #fff;
+    background-color: orange;
+    font-size: 25px;
+}
+
+.launcher:hover{
+    background-color: rgb(199, 129, 0);
+    transition: 0.3s;
+}
+
+.launch{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
